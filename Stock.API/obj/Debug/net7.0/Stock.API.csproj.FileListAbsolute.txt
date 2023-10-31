@@ -41,3 +41,5 @@ C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Stock.API\obj\Debug\net7
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Stock.API\obj\Debug\net7.0\Stock.API.pdb
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Stock.API\obj\Debug\net7.0\Stock.API.genruntimeconfig.cache
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Stock.API\obj\Debug\net7.0\ref\Stock.API.dll
+C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Stock.API\bin\Debug\net7.0\Shared.dll
+C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Stock.API\bin\Debug\net7.0\Shared.pdb

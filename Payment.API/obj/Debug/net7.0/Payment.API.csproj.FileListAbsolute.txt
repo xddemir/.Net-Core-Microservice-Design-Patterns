@@ -41,3 +41,5 @@ C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Payment.API\obj\Debug\ne
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Payment.API\obj\Debug\net7.0\Payment.API.pdb
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Payment.API\obj\Debug\net7.0\Payment.API.genruntimeconfig.cache
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Payment.API\obj\Debug\net7.0\ref\Payment.API.dll
+C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Payment.API\bin\Debug\net7.0\Shared.dll
+C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Payment.API\bin\Debug\net7.0\Shared.pdb

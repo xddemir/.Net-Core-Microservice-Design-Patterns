@@ -1,3 +1,4 @@
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
 using Order.API.Models;
 
@@ -10,10 +11,25 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddMassTransit(x =>
+{
+    x.UsingRabbitMq((context, conf) =>
+    {
+        conf.Host(builder.Configuration.GetConnectionString("RabbitMQ"), "/", configurator =>
+        {
+            configurator.Username("guest");
+            configurator.Password("guest");;
+        });
+    });
+});
+
+builder.Services.AddMassTransitHostedService();
+
 builder.Services.AddDbContext<AppDbContext>(optionsBuilder =>
 {
     optionsBuilder.UseSqlServer(builder.Configuration.GetConnectionString("SqlCon"));
 });
+
 
 var app = builder.Build();
 

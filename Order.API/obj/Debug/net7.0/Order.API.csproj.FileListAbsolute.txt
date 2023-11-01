@@ -6,15 +6,10 @@ C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Order.API.dll
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Order.API.pdb
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\MassTransit.dll
-C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\MassTransit.Abstractions.dll
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\MassTransit.AspNetCoreIntegration.dll
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\MassTransit.ExtensionsDependencyInjectionIntegration.dll
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
-C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
-C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\RabbitMQ.Client.dll
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -86,3 +81,8 @@ C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Shared.dll
 C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Shared.pdb
+C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Automatonymous.dll
+C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\GreenPipes.dll
+C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\NewId.dll
+C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\doguk\RiderProjects\MicroserviceDesignPatterns\Order.API\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

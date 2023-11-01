@@ -14,7 +14,6 @@ public class Order
 
     public OrderStatus Status { get; set; } = OrderStatus.None;
 
-    public string FailMessage { get; set; }
 }
 
 public enum OrderStatus

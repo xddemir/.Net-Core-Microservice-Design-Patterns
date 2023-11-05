@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-11-05T12:59:08.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="22.0.8" etag="0iof9XTDSE9v0IDW_g9X" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T13:12:33.707Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ls9EcPPjBCdzYL6qf9OO" version="22.0.8" type="github">
   <diagram name="Page-1" id="fyBXl63-xaljry7meS30">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-2" value="Order Service" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;swimlaneLine=1;rounded=0;shadow=0;swimlaneFillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="150" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-3" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;PaymentCompletedEvent(Subscribe)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-2">
+          <mxGeometry y="26" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-4" value="PaymentFailedEvent(Subscribe)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-2">
+          <mxGeometry y="56" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-5" value="StockNotReserved(Subscribe)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-2">
+          <mxGeometry y="86" width="150" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-6" value="OrderCreatedEvent(Publisher)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-2">
+          <mxGeometry y="110" width="150" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-7" value="Stock Service" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;swimlaneLine=1;rounded=0;shadow=0;swimlaneFillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="280" width="150" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-8" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;OrderCreatedEvent(Subscribe)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-7">
+          <mxGeometry y="26" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-9" value="PaymentFailedEvent(Subscribe)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-7">
+          <mxGeometry y="56" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-10" value="StockReservedEvent(publisher)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-7">
+          <mxGeometry y="86" width="150" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-11" value="StockNotReservedEvent(pubisher)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-7">
+          <mxGeometry y="110" width="150" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-12" value="Payment Service" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;swimlaneLine=1;rounded=0;shadow=0;swimlaneFillColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="280" width="150" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-13" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;StockReservedEvent(subscribe)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-12">
+          <mxGeometry y="26" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-14" value="PaymentCompletedEvent(Publisher)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-12">
+          <mxGeometry y="56" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-15" value="PaymentFailedEvent(Publisher)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-12">
+          <mxGeometry y="86" width="150" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-18" value="-&lt;br&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;whiteSpace=wrap;html=1;" vertex="1" parent="h02HizXEJ9lsxoNeCo2e-12">
+          <mxGeometry y="110" width="150" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h02HizXEJ9lsxoNeCo2e-4" target="h02HizXEJ9lsxoNeCo2e-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h02HizXEJ9lsxoNeCo2e-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h02HizXEJ9lsxoNeCo2e-9" target="h02HizXEJ9lsxoNeCo2e-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

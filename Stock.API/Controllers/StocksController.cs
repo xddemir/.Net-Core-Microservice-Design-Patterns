@@ -14,7 +14,7 @@ public class StocksController : ControllerBase
         _context = context;
     }
 
-    // GET
+    [HttpGet]
     public async Task<IActionResult> Index()
     {
         return Ok(await _context.Stocks.ToListAsync());

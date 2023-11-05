@@ -21,6 +21,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddMassTransit(x =>
 {
     x.AddConsumer<OrderCreatedEventConsumer>();
+    x.AddConsumer<PaymentFailedEventConsumer>();
 
     x.UsingRabbitMq((context, conf) =>
     {
@@ -33,6 +34,11 @@ builder.Services.AddMassTransit(x =>
         conf.ReceiveEndpoint(RabbitMqSettingsConst.StockOrderCreatedEventQueueName, configurator =>
         {
             configurator.ConfigureConsumer<OrderCreatedEventConsumer>(context);
+        });
+        
+        conf.ReceiveEndpoint(RabbitMqSettingsConst.StockPaymentFailedEventQueueName, configurator =>
+        {
+            configurator.ConfigureConsumer<PaymentFailedEventConsumer>(context);
         });
         
     });
